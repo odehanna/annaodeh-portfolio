@@ -1,0 +1,164 @@
+@-moz-viewport{ width: device-width; scale: 1;}
+@-ms-viewport{ width: device-width; scale: 1;}
+@-o-viewport{ width: device-width; scale: 1;}
+@-webkit-viewport{ width: device-width; scale: 1;}
+@viewport{ width: device-width;scale: 1;}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+h2{
+	color:rgba(159,125,26,1.00);
+		
+}
+
+hr {
+  height: 0;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
+}
+
+html{
+	background: #FFFFFF;
+	height: 100%;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font: normal 100%/1.5 sans-serif;	
+}
+
+body{
+	margin: 0;
+}
+
+img {
+    max-width: 100%
+}
+
+.top{
+	background-color: #000000;
+}
+
+.logo-top{
+	text-align:center;
+	margin:0;
+	color: #fff;
+	font-size: 0.8rem;
+	padding-bottom: 1rem;
+	background: #000 url("../img/logo.svg") no-repeat center top;
+	padding-top: 100px;
+}
+
+
+
+.nav{
+	text-align: center;
+	background-color: #000;
+	border-top: rgba(159,125,26,1.00) solid 4px;
+	border-bottom: rgba(159,125,26,1.00) solid 4px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+}
+
+.menu > li {
+  display: inline-block;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+
+a,
+a:link,
+a:visited {
+	outline: none;
+	font-size: 0.8rem;
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+a:focus {
+  outline: thin dotted;
+  color: rgba(159,125,26,1.00);
+  
+}
+
+a:active,
+a:hover {
+  outline: 0;
+  color: rgba(159,125,26,1.00);
+  font-size: 0.8rem;
+}
+
+.about,
+.contact {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.about{
+	padding-top: 2rem;
+}
+
+footer{
+	border-top: rgba(159,125,26,1.00) solid 2px;
+}
+
+.copyright{
+	width:50%;
+	float: left;
+	font-size: 0.8rem;
+	margin: 5px;
+	display: inline;
+}
+
+
+
+footer a,
+footer a:link,
+footer a:visited {
+	margin: 15px;
+	outline: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	float: right;
+	display: inline;
+	
+}
+
+footer a:focus {
+	margin: 15px;
+ 	outline: thin dotted;
+  	color: rgba(159,125,26,1.00);
+  
+}
+
+footer a:active,
+footer a:hover {
+	margin: 15px;
+  outline: 0;
+  color: rgba(159,125,26,1.00);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
