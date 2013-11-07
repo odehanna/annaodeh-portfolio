@@ -39,8 +39,7 @@ hr {
 html{
 	background: #FFFFFF;
 	height: 100%;
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font: normal 100%/1.5 sans-serif;	
+	font-family: 'Raleway', sans-serif;	
 }
 
 body{
@@ -59,7 +58,7 @@ img {
 	text-align:center;
 	margin:0;
 	color: #fff;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	padding-bottom: 1rem;
 	background: #000 url("../img/logo.svg") no-repeat center top;
 	padding-top: 100px;
@@ -72,6 +71,7 @@ img {
 	background-color: #000;
 	border-top: rgba(159,125,26,1.00) solid 4px;
 	border-bottom: rgba(159,125,26,1.00) solid 4px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .navbig{
@@ -141,6 +141,7 @@ a:hover {
   color: rgba(159,125,26,1.00);
   font-size: 0.8rem;
 }
+
 
 .about,
 .contact {

@@ -1,6 +1,8 @@
-.container {
+.container,
+.container-in {
   padding-left: 0;
   padding-right: 0;
+  overflow: hidden;
 }
 
 
@@ -32,8 +34,21 @@ hr {
 	float: left;
 	width: 100%;
 }
+
+.col-xs-1,
+.col-sm-1,
+.col-lg-2{
+	position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width:100%;
+}
+ 
+ 
  @media (min-width: 768px) {
-  .container {
+  .container,
+  .container-in{
     max-width: 750px;
 	margin: 0 auto;
   }
@@ -42,6 +57,11 @@ hr {
     float: left;
 	width: 33.33333333333333%;
   }
+  
+  .col-xs-1{
+	  width: 100%
+  }
+
 
 hr{
 	display: none;
@@ -52,7 +72,8 @@ hr{
 
 
 @media (min-width: 992px) {
-  .container {
+  .container,
+  .container-in {
     max-width: 970px;
 	margin: 0 auto;
   }
@@ -62,11 +83,20 @@ hr{
     width: 33.33333333333333%;
   }
 
+  .col-sm-1{
+	  width: 100%;
+  }
+  .col-lg-2{
+		width: 50%;
+		float: left;
+	}
+  
 }
 
 
 @media (min-width: 1200px) {
-  .container {
+  .container,
+  .container-in {
     max-width: 1170px;
 	margin: 0 auto;
 
@@ -77,5 +107,9 @@ hr{
     width: 33.33333333333333%;
   }
 
+	.col-lg-2{
+		width: 50%;
+		float: left;
+	}
 
 }
