@@ -105,6 +105,19 @@ img {
   padding-left: 4px;
 }
 
+.connect li{
+	display: inline-block;
+	width: 40px;
+	text-decoration: none;
+	margin-right: 1.5rem;
+	margin-top: 1.5rem;
+	
+}
+
+ul.connect{
+	padding-left: 0;
+	margin: 0;
+}
 
 a,
 a:link,
@@ -211,4 +224,35 @@ footer a:hover {
   color: rgba(159,125,26,1.00);
   font-size: 1.1rem;
   font-weight: bold;
+}
+
+
+.contact a,
+.contact a:link,
+.contact a:visited {
+	margin: 0;
+	outline: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	float: left;
+	display: inline;
+	
+}
+
+.contact a:focus {
+	margin: 15px;
+ 	outline: thin dotted;
+  	color: rgba(159,125,26,1.00);
+  
+}
+
+.contact a:active,
+.contact a:hover {
+	margin: 0;
+	outline: 0;
+	color: rgba(159,125,26,1.00);
+	font-size: 1.2rem;
+	font-weight: bold;
 }

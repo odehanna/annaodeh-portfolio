@@ -39,8 +39,7 @@ hr {
 html{
 	background: #FFFFFF;
 	height: 100%;
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font: normal 100%/1.5 sans-serif;	
+	font-family: 'Raleway', sans-serif;	
 }
 
 body{
@@ -59,7 +58,7 @@ img {
 	text-align:center;
 	margin:0;
 	color: #fff;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	padding-bottom: 1rem;
 	background: #000 url("../img/logo.svg") no-repeat center top;
 	padding-top: 100px;
@@ -72,6 +71,7 @@ img {
 	background-color: #000;
 	border-top: rgba(159,125,26,1.00) solid 4px;
 	border-bottom: rgba(159,125,26,1.00) solid 4px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .navbig{
@@ -105,6 +105,19 @@ img {
   padding-left: 4px;
 }
 
+.connect li{
+	display: inline-block;
+	width: 40px;
+	text-decoration: none;
+	margin-right: 1.5rem;
+	margin-top: 1.5rem;
+	
+}
+
+ul.connect{
+	padding-left: 0;
+	margin: 0;
+}
 
 a,
 a:link,
@@ -211,4 +224,35 @@ footer a:hover {
   color: rgba(159,125,26,1.00);
   font-size: 1.1rem;
   font-weight: bold;
+}
+
+
+.contact a,
+.contact a:link,
+.contact a:visited {
+	margin: 0;
+	outline: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	float: left;
+	display: inline;
+	
+}
+
+.contact a:focus {
+	margin: 15px;
+ 	outline: thin dotted;
+  	color: rgba(159,125,26,1.00);
+  
+}
+
+.contact a:active,
+.contact a:hover {
+	margin: 0;
+	outline: 0;
+	color: rgba(159,125,26,1.00);
+	font-size: 1.2rem;
+	font-weight: bold;
 }
