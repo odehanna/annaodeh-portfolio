@@ -1,5 +1,6 @@
 .container,
 .container-in {
+	padding-top: 10px;
   padding-left: 0;
   padding-right: 0;
   overflow: hidden;
@@ -7,17 +8,15 @@
 
 
 .row {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 [class*="col-"] {
   padding-top: 10px;
-  padding-bottom: 5px;
-
 }
 
 hr {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
@@ -28,6 +27,7 @@ hr {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 10px;
   width:100%;
 }
 .col-xs-6{
@@ -35,7 +35,12 @@ hr {
 	width: 100%;
 }
 
-.col-xs-1,
+.col-xs-1{
+	position: relative;
+  min-height: 1px;
+  width:100%;
+}
+
 .col-sm-1,
 .col-lg-2{
 	position: relative;

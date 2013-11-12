@@ -1,0 +1,16 @@
+<div class="container-in" id="portfolio">
+      <!-- Example row of columns -->
+      <div class="row">
+	  
+	  	{% for image in page.images %}
+			<div class="col-xs-1 col-sm-1 col-lg-2">
+				<img src="{{site.baseurl}}/img/{{image}}" alt="">
+			</div>
+			{% unless forloop.last %}
+				<hr>
+			{% endunless %}
+		{% endfor %}
+	
+      </div>
+	</div>
+	
