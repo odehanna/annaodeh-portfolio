@@ -174,17 +174,31 @@ img {
 	background-color: #000000;
 }
 
+.top h1{
+	padding-left: 30px;
+}
+
 .logo-top{
-	text-align:center;
 	margin:0;
 	color: #fff;
 	font-size: 0.6rem;
 	padding-bottom: 1rem;
-	background: #000 url("../img/logo.svg") no-repeat center top;
-	padding-top: 100px;
 }
 
+.top img{
+	width: 8.5%;
+	margin: 5px 0 1px 20px;
+}
 
+@media (min-width: 800px){
+	.logo-top{
+	margin:0;
+	color: #fff;
+	font-size: 0.6rem;
+	padding-bottom: 1rem;
+	padding-left: 1em;
+}
+}
 
 .nav{
 	text-align: center;
@@ -198,17 +212,17 @@ img {
 	display: none;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 800px){
 	.nav{
 		display: none;
 	}
 	
 	.navbig{
 	display: block;
-	text-align: center;
-	background-color: #000;
-	border-top: rgba(159,125,26,1.00) solid 4px;
-	border-bottom: rgba(159,125,26,1.00) solid 4px;
+	text-align: right;
+	position: absolute;
+	top:65px;
+	right: 20px;
 
 	}
 	
@@ -322,7 +336,7 @@ footer a:hover {
 .navbig a:visited {
 	margin: 15px;
 	outline: none;
-	font-size: 1.1rem;
+	font-size: 0.8rem;
 	font-weight: bold;
 	text-decoration: none;
 	color: #fff;
@@ -343,7 +357,7 @@ footer a:hover {
 	margin: 15px;
   outline: 0;
   color: rgba(159,125,26,1.00);
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
@@ -353,7 +367,7 @@ footer a:hover {
 .contact a:visited {
 	margin: 0;
 	outline: none;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
