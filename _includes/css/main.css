@@ -226,6 +226,7 @@ a:focus {
 
 a:active,
 a:hover {
+	font-weight: bold;
   outline: 0;
   color: rgba(159,125,26,1.00);
   font-size: 0.8rem;
