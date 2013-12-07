@@ -39,7 +39,7 @@ hr {
 html{
 	background: #FFFFFF;
 	height: 100%;
-	font-family: 'Muli', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1rem;
 }
 
@@ -57,11 +57,11 @@ img {
 
 .top h1{
 	padding-left: 30px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Syncopate', sans-serif;
 }
 
 h2{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Syncopate', sans-serif;
 }
 
 .logo-top{
@@ -71,7 +71,7 @@ h2{
 	color: #fff;
 	font-size: 0.6rem;
 	padding-bottom: 1rem;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Syncopate', sans-serif;
 }
 
 .top img{
@@ -263,42 +263,41 @@ a:hover {
 	text-align:center;
 }
 
-
-@media (min-width: 700px){
-
-	.about img{
-	display: inline;
-	float: left;
-	/*margin-right: 3rem;*/
-	max-width: 40%;
-	border-right: #fff solid 50px;
-
-}
+@media (min-width: 500px){
 
 	.about{
 		padding-bottom: 2rem;
-		margin-right: 1rem;
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 	
 }
 
-@media (min-width: 800px){
+@media (min-width: 700px){
+
 	.about{
-		font-size: 1rem;
+		padding-bottom: 2rem;
+		font-size: 1.8rem;
 	}
 	
-	.about p{
-		margin-top: 3rem;
-		margin-right: 2rem;
-	}
-
 }
+
+@media (min-width: 700px){
+
+	.about p{
+		padding-right:50px;
+		padding-left:50px;
+		
+	}
+	
+}
+
+
+
 
 
 @media (min-width: 1200px){
 	.about{
-		font-size: 1.3rem;
+		font-size: 2rem;
 	}
 	
 }
@@ -360,9 +359,7 @@ footer a:hover {
 	footer a:hover {
 		font-size: 2rem;
 	}
-	footer{
-		padding-top: 15rem;
-	}
+	
 }
 
 .navbig a,
@@ -406,6 +403,12 @@ footer a:hover {
 	text-align:center;
 }
 
+.contact h2{
+	font-family: 'Syncopate', sans-serif;
+	font-size:3rem;
+	text-align:center;
+}
+
 .connect li{
 	display: list-item;
 	text-decoration: none;
@@ -423,7 +426,29 @@ ul.connect{
 }
 
 ul.connect img{
-	width: 30%;
+	width: 27%;
+}
+@media (min-width: 350px){
+	ul.connect img{
+	width: 20%;
+}
+}
+@media (min-width: 600px){
+	ul.connect img{
+	width: 16%;
+}
+}
+
+@media (min-width: 800px){
+	ul.connect img{
+	width: 12%;
+}
+}
+
+@media (min-width: 1200px){
+	ul.connect img{
+	width: 7%;
+}
 }
 
 .contact a,
@@ -461,6 +486,28 @@ ul.connect img{
 	text-align:center;
 	
 }
+@media (min-width: 350px){
+	.contact,
+	.contact a,
+	.contact a:link,
+	.contact a:visited,
+	.contact a:focus
+	.contact a:active,
+	.contact a:hover{
+		font-size: 0.9rem;
+	}
+}
+@media (min-width: 600px){
+	.contact,
+	.contact a,
+	.contact a:link,
+	.contact a:visited,
+	.contact a:focus
+	.contact a:active,
+	.contact a:hover{
+		font-size: 1.7rem;
+	}
+}
 
 @media (min-width: 800px){
 	.contact,
@@ -470,7 +517,20 @@ ul.connect img{
 	.contact a:focus
 	.contact a:active,
 	.contact a:hover{
-		font-size: 1.45rem;
+		font-size: 2rem;
+	}
+
+}
+
+@media (min-width: 800px){
+	.contact,
+	.contact a,
+	.contact a:link,
+	.contact a:visited,
+	.contact a:focus
+	.contact a:active,
+	.contact a:hover{
+		font-size: 3rem;
 	}
 
 }

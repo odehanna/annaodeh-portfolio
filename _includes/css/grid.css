@@ -1,6 +1,7 @@
 .container,
 .container-in {
 	padding-top: 10px;
+	padding-bottom: 10px;
   padding-left: 0;
   padding-right: 0;
   overflow: hidden;
@@ -20,6 +21,7 @@ hr {
   margin-bottom: 0px;
 }
 
+
 .col-xs-6,
 .col-sm-4,
 .col-lg-4{
@@ -38,15 +40,15 @@ hr {
 .col-xs-1{
 	position: relative;
   min-height: 1px;
-  width:100%;
+  width:90%;
+   padding-left: 160px;
 }
 
 .col-sm-1,
 .col-lg-2{
 	position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+
   width:100%;
 }
 
@@ -64,7 +66,8 @@ hr {
   }
   
   .col-xs-1{
-	  width: 100%
+	  width: 90%;
+	  text-align:center;
   }
 
 
@@ -74,47 +77,3 @@ hr{
  
 }
 
-
-
-@media (min-width: 992px) {
-  .container,
-  .container-in {
-    max-width: 100%;
-	margin: 0 auto;
-  }
-
-  .col-md-4 {
-	  float: left;
-    width: 33.33333333333333%;
-  }
-
-  .col-sm-1{
-	  width: 100%;
-  }
-  .col-lg-2{
-		width: 50%;
-		float: left;
-	}
-  
-}
-
-
-@media (min-width: 1200px) {
-  .container,
-  .container-in {
-    max-width: 98%;
-	margin: 0 auto;
-
-  }
-
-  .col-lg-4 {
-	  float: left;
-    width: 33.33333333333333%;
-  }
-
-	.col-lg-2{
-		width: 50%;
-		float: left;
-	}
-
-}
