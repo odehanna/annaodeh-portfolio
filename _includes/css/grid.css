@@ -21,7 +21,6 @@ hr {
   margin-bottom: 0px;
 }
 
-.col-xs-1,
 .col-xs-6,
 .col-sm-4,
 .col-lg-4{
@@ -39,9 +38,12 @@ hr {
 
 .col-xs-1{
 	position: relative;
-  min-height: 1px;
-  width:100%;
-   
+	min-height: 1px;
+	width:100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 10px;
+	   
 }
 
 .col-sm-1,
