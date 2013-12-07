@@ -258,8 +258,8 @@ a:hover {
 
 .about{
 	background-color: #000000;
-	padding-top: 2rem;
-	padding-bottom:3rem;
+	padding-top: 1rem;
+	padding-bottom:1rem;
 	max-width: 100%;
 }
 
@@ -272,6 +272,11 @@ a:hover {
 	color: #fff;
 }
 
+.about h2{
+	font-family: 'Syncopate', sans-serif;
+	font-size:5rem;
+	text-align:center;
+}
 
 @media (min-width: 700px){
 
