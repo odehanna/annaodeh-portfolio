@@ -257,6 +257,7 @@ a:hover {
 }
 
 .about{
+	background-color: #000000;
 	padding-top: 2rem;
 	padding-bottom:3rem;
 	max-width: 100%;
@@ -265,6 +266,10 @@ a:hover {
 .about img{
 	display: none;
 
+}
+
+.about p{
+	color: #fff;
 }
 
 
