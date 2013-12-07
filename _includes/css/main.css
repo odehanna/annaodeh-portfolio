@@ -205,19 +205,6 @@ h2{
 }
 
 
-.connect li{
-	display: inline-block;
-	width: 70px;
-	text-decoration: none;
-	padding-right: 1.5rem;
-	
-}
-
-ul.connect{
-	padding-left: 0;
-	margin: 0;
-	padding-top: 1.5rem;
-}
 
 
 a,
@@ -408,23 +395,49 @@ footer a:hover {
   font-weight: bold;
 }
 
-.contact{
-	padding-top: 10rem;
+.connect{
 	text-align: center;
+	
+}
+
+
+.contact{
+	padding-top: 5rem;
+	text-align:center;
+}
+
+.connect li{
+	display: list-item;
+	text-decoration: none;
+	padding-bottom: 3rem;
+	
+	
+}
+
+
+ul.connect{
+	padding-left: 0;
+	margin: 0;
+	padding-top: 5rem;
+
+}
+
+ul.connect img{
+	width: 30%;
 }
 
 .contact a,
 .contact a:link,
 .contact a:visited {
-	margin: 0;
+	margin-top: 3rem;
 	outline: none;
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
-	float: left;
-	display: inline;
+	display: inline-block;
 	font-size: 0.7rem;
-	
+	text-align:center;
+
 	
 }
 
@@ -440,11 +453,12 @@ footer a:hover {
 
 .contact a:active,
 .contact a:hover {
-	margin: 0;
+	margin-top: 3rem;
 	outline: 0;
 	color: rgba(159,125,26,1.00);
 	font-size: 0.7rem;
 	font-weight: bold;
+	text-align:center;
 	
 }
 
