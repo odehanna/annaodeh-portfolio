@@ -54,13 +54,13 @@ hr {
  @media (min-width: 768px) {
   .container,
   .container-in{
-    max-width: 750px;
+    max-width: 100%;
 	margin: 0 auto;
   }
 
   .col-sm-4{
     float: left;
-	width: 33.33333333333333%;
+	width: 50%;
   }
   
   .col-xs-1{
@@ -79,7 +79,7 @@ hr{
 @media (min-width: 992px) {
   .container,
   .container-in {
-    max-width: 970px;
+    max-width: 100%;
 	margin: 0 auto;
   }
 
@@ -102,7 +102,7 @@ hr{
 @media (min-width: 1200px) {
   .container,
   .container-in {
-    max-width: 1170px;
+    max-width: 98%;
 	margin: 0 auto;
 
   }
