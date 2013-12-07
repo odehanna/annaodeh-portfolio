@@ -246,15 +246,12 @@ a:hover {
 }
 
 
-.about,
-.contact {
+.about{
   padding-left: 1.5rem;
   padding-right: 1rem;
 }
 
-.contact{
-	padding-top: 2rem;
-}
+
 
 .about{
 	background-color: #000000;
@@ -270,6 +267,7 @@ a:hover {
 
 .about p{
 	color: #fff;
+	
 }
 
 .about h2{
@@ -277,6 +275,7 @@ a:hover {
 	font-size:5rem;
 	text-align:center;
 }
+
 
 @media (min-width: 700px){
 
@@ -321,7 +320,6 @@ a:hover {
 
 footer{
 	border-top: rgba(159,125,26,1.00) solid 2px;
-	padding-left: 1rem;
 	
 }
 
@@ -376,7 +374,7 @@ footer a:hover {
 		font-size: 2rem;
 	}
 	footer{
-		padding-bottom: 5rem;
+		padding-top: 15rem;
 	}
 }
 
@@ -410,19 +408,23 @@ footer a:hover {
   font-weight: bold;
 }
 
+.contact{
+	padding-top: 10rem;
+	text-align: center;
+}
 
 .contact a,
 .contact a:link,
 .contact a:visited {
 	margin: 0;
 	outline: none;
-	font-size: 0.8rem;
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
 	float: left;
 	display: inline;
-	font-size: 1rem;
+	font-size: 0.7rem;
+	
 	
 }
 
@@ -431,7 +433,8 @@ footer a:hover {
 	margin: 15px;
  	outline: thin dotted;
   	color: rgba(159,125,26,1.00);
-	font-size: 1rem;
+	font-size: 0.7rem;
+	
   
 }
 
@@ -440,8 +443,9 @@ footer a:hover {
 	margin: 0;
 	outline: 0;
 	color: rgba(159,125,26,1.00);
-	font-size: 1rem;
+	font-size: 0.7rem;
 	font-weight: bold;
+	
 }
 
 @media (min-width: 800px){
