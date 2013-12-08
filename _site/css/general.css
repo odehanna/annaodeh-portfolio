@@ -359,7 +359,7 @@ a:hover {
 
 	.about{
 		padding-bottom: 2rem;
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	
 }
@@ -367,8 +367,8 @@ a:hover {
 @media (min-width: 700px){
 
 	.about p{
-		padding-right:50px;
-		padding-left:50px;
+		padding-right: 50px;
+		padding-left: 50px;
 		
 	}
 	
@@ -380,7 +380,12 @@ a:hover {
 
 @media (min-width: 1200px){
 	.about{
-		font-size: 2rem;
+		font-size: 1.5rem;
+	}
+	.about p{
+		padding-right: 300px;
+		padding-left: 300px;
+		
 	}
 	
 }
