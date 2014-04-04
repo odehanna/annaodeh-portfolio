@@ -49,6 +49,7 @@
 </head>
 
 <body id="topdes">
+	<a href="#" class="scrollup">Scroll</a>
 	<div class="top">
 	<img src="/img/logo.svg" alt="logo">
 	<a href="/index.html" rel="home"><h1 class="logo-top">ANNA ODEH DESIGN</h1></a>
@@ -81,91 +82,91 @@
         <div class="col-xs-6 col-sm-4 col-lg-4">
 		<figure class="cap-bot">
 		<a href="portfolio/samburu.html"><img src="/img/samburu1.jpg" alt="samburu bear package design"></a>
-		
+
 		<figcaption>
 		Beer Package Design
 		</figcaption>
-		
+
 		</figure>
-		
+
 		</div>
-		
+
 		<hr>
-		
+
        <div class="col-xs-6 col-sm-4 col-lg-4">
 	   <figure class="cap-bot">
 		<a href="portfolio/nouveau.html"><img src="/img/art_nouveau.jpg" alt="art nouveau layout design"></a>
-		
+
 		<figcaption>
 		Brochure Layout Design
 		</figcaption>
-		
+
 		</figure>
-		
+
 		</div>
-      	
+
 		<hr>
-	  
+
  		<div class="col-xs-6 col-sm-4 col-lg-4">
 		 <figure class="cap-bot">
 		<a href="portfolio/thirdeye.html"><img src="/img/third_eye_girl.jpg" alt="inspired by Prince- song Third Eye Girl"></a>
-		
+
 		<figcaption>
 		Poster Design inspired by Prince's song "Third Eye Girl"
 		</figcaption>
-		
+
 		</figure>
-		
+
 		</div>
-		
+
 		<hr>
-		
+
        <div class="col-xs-6 col-sm-4 col-lg-4">
 	    <figure class="cap-bot">
 		<a href="portfolio/book.html"><img src="/img/book1.jpg" alt="Book cover design"></a>
-		
+
 		<figcaption>
 		Cover Book Design—MAD Awards 2nd place winning 2011
 		</figcaption>
-		
+
 		</figure>
-		
-		
+
+
 		</div>
-		
+
 		<hr>
-		
+
 		<div class="col-xs-6 col-sm-4 col-lg-4">
 		 <figure class="cap-bot">
 		<a href="portfolio/bear.html"><img src="/img/bears_logo.jpg" alt="Ottawa Bears Club logo redesign"></a>
-		
+
 		<figcaption>
 		Rebranding for a Soccer Club
 		</figcaption>
-		
+
 		</figure>
-		
-		
+
+
 		</div>
-		
+
 		<hr>
-		
+
        <div class="col-xs-6 col-sm-4 col-lg-4">
 	    <figure class="cap-bot">
 		<a href="portfolio/acts-of-god.html"><img src="/img/acts_of-god.jpg" alt="Quote Book- Act of God"></a>
-		
+
 		<figcaption>
 		Quote Book About Most Memorable Disasters
 		</figcaption>
-		
+
 		</figure>
-		
-		
+
+
 		</div>
       </div>
 	  </div>
-	 
-	  
+
+
 
 	 <div class="about" id="about">
 	<div class="h1"><h2>HI</h2></div>
@@ -179,25 +180,25 @@
 		<div  class="contact"  id="contact">
 		<div class="h1"><h2>SAY HEY</h2>
 		</div>
-		<a href="mailto:odeh.anna@gmail.com">odeh.anna@gmail.com</a> 
-		</div> 
-		
-		
+		<a href="mailto:odeh.anna@gmail.com">odeh.anna@gmail.com</a>
+		</div>
+
+
 		<ul class="connect">
 		<li>
 		<a href="http://www.behance.net/annaodeh">
 		<img src="img/behance-be-logo.svg" alt="link to Behance">
 		</a>
 		</li>
-		
+
 		<li>
 		<a href="https://www.facebook.com/anna.odeh.7">
 		<img src="img/facebook-logo.svg" alt="link to Facebook">
 		</a>
 		</li>
 	</ul>
-	
-	
+
+
 
 
 
@@ -211,11 +212,49 @@
 	<footer>
 	<div class="copyright">
 		<img src="/img/logo-footer.svg" alt="logo">
-	 	<p>© 2013 Anna Odeh Design</p>
+	 	<p>© 2013-2014 <br> Anna Odeh Design</p>
 	</div>
 
-	<a href="#topdes">Top</a>
 
 </footer>
+
+ <!-- scroll back to top -->
+ <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+    });
+</script>
+
+<!-- scroll to anchor animated -->
+<script>
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+</script>
 </body>
 </html>

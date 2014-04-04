@@ -301,15 +301,14 @@ a:visited {
 }
 
 a:focus {
-  outline: thin dotted;
   color: rgba(159,125,26,1.00);
 
 }
 
 a:active,
 a:hover {
-	font-weight: bold;
-  outline: 0;
+	text-decoration: none;
+	outline: none;
   color: rgba(159,125,26,1.00);
   font-size: 0.8rem;
   font-family: 'Syncopate', sans-serif;
@@ -398,12 +397,17 @@ footer{
 }
 
 .copyright{
-	width:50%;
+	width:90%;
 	float: left;
 	font-size: 0.8rem;
-	margin: 5px;
 	display: inline;
 	top: 1200px;
+}
+
+.copyright p{
+margin-top: 30px;
+font-family: 'Syncopate', sans-serif;
+
 }
 
 .copyright img{
@@ -482,11 +486,14 @@ footer a:hover {
 
 .navbig a:active,
 .navbig a:hover {
-	margin: 15px;
-  outline: 0;
   color: rgba(159,125,26,1.00);
-  font-size: 0.8rem;
-  font-weight: bold;
+	margin: 15px;
+	outline: none;
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-decoration: none;
+ 	float: right;
+	display: inline;
 }
 
 .connect{
@@ -671,3 +678,15 @@ figure:hover figcaption {
 .cap-bot figcaption { left: 0; bottom: -30%;}
 .cap-bot:hover figcaption { bottom: 0; }
 
+.scrollup{
+width:50px;
+height:45px;
+position: fixed;
+opacity: 0.7;
+bottom: 0;
+right: 5px;
+display:none;
+text-indent:-9999px;
+background: url('/img/icon_top.png') no-repeat;
+z-index: 3000;
+}

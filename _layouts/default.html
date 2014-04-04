@@ -49,6 +49,7 @@
 </head>
 
 <body id="topdes">
+	<a href="#" class="scrollup">Scroll</a>
 	<div class="top">
 	<img src="{{site.baseurl}}/img/logo.svg" alt="logo">
 	<a href="{{site.baseurl}}/index.html" rel="home"><h1 class="logo-top">ANNA ODEH DESIGN</h1></a>
@@ -57,7 +58,7 @@
 	<div class="nav">
 		<nav>
 			<ul class="menu">
-				<li><a href="{{site.baseurl}}/index.html" rel="home">WORK</a></li>
+				<li><a href="{{site.baseurl}}/index.html" rel="home">HOME</a></li>
 				<li><a href="{{site.baseurl}}/#about">ABOUT</a></li>
 				<li><a href="{{site.baseurl}}/#contact">CONTACT</a></li>
 			</ul>
@@ -68,7 +69,7 @@
 	<div class="navbig">
 		<nav>
 			<ul class="menu">
-				<li><a href="{{site.baseurl}}/index.html" rel="home">WORK</a></li>
+				<li><a href="{{site.baseurl}}/index.html" rel="home">HOME</a></li>
 				<li><a href="{{site.baseurl}}/#about">ABOUT</a></li>
 				<li><a href="{{site.baseurl}}/#contact">CONTACT</a></li>
 			</ul>
@@ -82,11 +83,49 @@
 	<footer>
 	<div class="copyright">
 		<img src="{{site.baseurl}}/img/logo-footer.svg" alt="logo">
-	 	<p>© 2013 Anna Odeh Design</p>
+	 	<p>© 2013-2014 <br> Anna Odeh Design</p>
 	</div>
 
-	<a href="#topdes">Top</a>
 
 </footer>
+
+ <!-- scroll back to top -->
+ <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+    });
+</script>
+
+<!-- scroll to anchor animated -->
+<script>
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+</script>
 </body>
 </html>
