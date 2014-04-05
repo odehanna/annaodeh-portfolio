@@ -16,25 +16,6 @@
 	<meta name="msapplication-square150x150logo" content="/square.png"/>
 	<meta name="msapplication-wide310x150logo" content="/wide.png"/>
 	<meta name="msapplication-square310x310logo" content="/large.png"/>
-		 <!--Facebook-->
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="">
-	<meta property="og:url" content="http://fullurl.com/to-this/article.http">
-	<!--Image size: minimum 200x200; recommended 1500x1500-->
-	<meta property="og:image" content="http://odehanna.github.io/annaodeh-portfolio/index.html">
-	 <!-- `og:description` is also optional, but could easily be filled with the meta description -->
-	<meta property="og:description" content="">
-	 <!-- `og:site_name` is optional but highly recommended -->
-	<meta property="og:site_name" content="Portfolio">
-
-
-	<!--Twitter-->
-	<meta property="twitter:card" content="summary">
-	<meta property="twitter:title" content="">
-	<meta property="twitter:url" content="http://fullurl.com/to-this/article.http">
-	<!--Image size: minimum 120x120; recommended 1500x1500-->
-	<meta property="twitter:image" content="http://odehanna.github.io/annaodeh-portfolio/index.html">
-	<meta property="twitter:description" content="">
 
 	<title>Anna Odeh- Portfolio Home Page; Ottawa, Canada</title>
 
@@ -50,8 +31,9 @@
 
 <body id="topdes">
 	<a href="#" class="scrollup">Scroll</a>
+	<a href="" class="back_link">Back</a>
 	<div class="top">
-	<img src="/img/logo.svg" alt="logo">
+	<a href="/index.html" rel="home"><img src="/img/logo.svg" alt="logo"></a>
 	<a href="/index.html" rel="home"><h1 class="logo-top">ANNA ODEH DESIGN</h1></a>
 	</div>
 
@@ -147,6 +129,28 @@ $('a[href*=#]:not([href=#])').click(function() {
         }
     }
 });
+</script>
+
+<!--back button -->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.back_link').fadeIn();
+            } else {
+                $('.back_link').fadeOut();
+            }
+        });
+
+        $('.back_link').click(function(){
+         parent.history.back();
+				return false;
+        });
+
+    });
+</script>
+
 </script>
 </body>
 </html>

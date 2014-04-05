@@ -690,3 +690,16 @@ text-indent:-9999px;
 background: url('/img/icon_top.png') no-repeat;
 z-index: 3000;
 }
+
+.back_link{
+width:60px;
+height:60px;
+position: fixed;
+opacity: 0.7;
+top: 0;
+left: 0;
+display:none;
+text-indent:-9999px;
+background: url('/img/icon_back.png') no-repeat;
+z-index: 3000;
+}
