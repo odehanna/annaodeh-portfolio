@@ -123,6 +123,7 @@ html{
 	height: 100%;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1rem;
+	-webkit-font-smoothing: antialiased;
 }
 
 body{
@@ -140,10 +141,12 @@ img {
 .top h1{
 	padding-left: 30px;
 	font-family: 'Syncopate', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 h2{
 	font-family: 'Syncopate', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .logo-top{
@@ -154,6 +157,7 @@ h2{
 	font-size: 0.6rem;
 	padding-bottom: 1rem;
 	font-family: 'Syncopate', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .top img{
@@ -230,6 +234,7 @@ h2{
 	top: 45px;
 	right: 20px;
 	font-family: 'Syncopate', sans-serif;
+	-webkit-font-smoothing: antialiased;
 
 	}
 
@@ -249,7 +254,6 @@ h2{
 	top: 55px;
 	right: 20px;
 	font-family: 'Syncopate', sans-serif;
-
 
 	}
 
