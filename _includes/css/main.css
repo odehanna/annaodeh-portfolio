@@ -237,7 +237,8 @@ a:hover {
 }
 
 .visit{
-	margin: 30px;
+	margin: 30px auto;
+	text-align: center;
 }
 
 .visit a,
