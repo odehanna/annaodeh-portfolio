@@ -238,6 +238,34 @@ a:hover {
 
 .visit{
 	background-color: black;
+	padding: 20px;
+}
+
+.visit a,
+.visit a:link,
+.visit a:visited {
+	outline: none;
+	font-size: 1rem;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Syncopate', sans-serif;
+	font-weight: bold;
+
+}
+
+.visit a:focus {
+  color: rgba(159,125,26,1.00);
+
+}
+
+.visit a:active,
+.visit a:hover {
+  text-decoration: none;
+  outline: none;
+  color: rgba(159,125,26,1.00);
+  font-size: 1rem;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: bold;
 }
 
 
