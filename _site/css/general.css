@@ -321,6 +321,8 @@ a:hover {
 .visit{
 	background-color: black;
 	padding: 20px;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 .visit a,
