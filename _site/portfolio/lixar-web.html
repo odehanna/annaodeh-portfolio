@@ -1,0 +1,149 @@
+
+<!doctype html>
+<html>
+<head>
+ 	<meta name="generator" content=
+  	"HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org">
+	<meta charset="UTF-8">
+	<meta name="handheldfriendly" content="true">
+ 	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Lixar Web Design UX / UI">
+	<meta name="author" content="Anna Odeh">
+	<meta name="msapplication-TileImage" content="pinned.png">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="msapplication-square70x70logo" content="/tiny.png"/>
+	<meta name="msapplication-square150x150logo" content="/square.png"/>
+	<meta name="msapplication-wide310x150logo" content="/wide.png"/>
+	<meta name="msapplication-square310x310logo" content="/large.png"/>
+
+	<title>Anna Odeh | Graphic and Web Designer | Ottawa, Canada</title>
+
+	<link href="/css/general.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
+
+	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png"  href="/opera-icon.png">
+	<link rel="shortcut icon" href="favicon.ico">
+
+</head>
+
+<body id="topdes">
+	<a href="#" class="scrollup">Scroll</a>
+	<div class="top">
+	<a href="/index.html" rel="home"><img src="/img/logo.svg" alt="logo"></a>
+	<a href="/index.html" rel="home"><h1 class="logo-top">ANNA ODEH DESIGN</h1></a>
+	</div>
+
+	<div class="nav">
+		<nav>
+			<ul class="menu">
+				<li><a href="/index.html" rel="home">HOME</a></li>
+				<li><a href="/#about">ABOUT</a></li>
+				<li><a href="/#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<div class="navbig">
+		<nav>
+			<ul class="menu">
+				<li><a href="/index.html" rel="home">HOME</a></li>
+				<li><a href="/#about">ABOUT</a></li>
+				<li><a href="/#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	  <a href="" class="back_link">Back</a>
+<div class="container-in" id="portfolio">
+      <!-- Example row of columns -->
+      <div class="row">
+	  
+	  	
+			<div class="col-xs-1">
+				<img src="/img/lixar.jpg" alt="">
+			</div>
+			
+		
+	
+      </div>
+	</div>
+	
+
+
+
+
+
+	<footer>
+	<div class="copyright">
+		<img src="/img/logo-footer.svg" alt="logo">
+	 	<p>©2015 <br> Anna Odeh Design</p>
+	</div>
+
+
+</footer>
+
+ <!-- scroll back to top -->
+ <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+    });
+</script>
+
+<!-- scroll to anchor animated -->
+<script>
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+</script>
+
+<!--back button -->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.back_link').fadeIn();
+            } else {
+                $('.back_link').fadeOut();
+            }
+        });
+
+        $('.back_link').click(function(){
+         parent.history.back();
+				return false;
+        });
+
+    });
+</script>
+
+</body>
+</html>
